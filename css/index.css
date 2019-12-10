@@ -109,6 +109,8 @@ h1{
 
 button {
 	padding:1% 10% 1% 10%;
+	background-color:white;
+	border: .5px solid black;
 }
 
 .top-content{
@@ -123,9 +125,6 @@ padding: 5%;
 	margin-left: 3%;
 }
 
-.whole {
-	margin: 3%;
-	
 }
 #code-image {
 	padding-left: 20%;
@@ -230,7 +229,7 @@ padding-top: 8%;
 }
 .words p{
 	padding:2% 3% 3% 0%;
-	font-size: 20px;
+	font-size: 1rem;
 	letter-spacing: .25px;
 }
 button{
@@ -276,9 +275,7 @@ CSS VISION PAGE STARTS HERE */
 /* Media Queries Start Here */
 
 @media (max-width: 800px){
-    body {
-        
-    }
+   
 
     nav{
         display: flex;
@@ -292,8 +289,9 @@ CSS VISION PAGE STARTS HERE */
     .nav-parts{
         display:flex;
         justify-content: space-between;
-        
-        padding: 2%;
+        width: 100%;
+		padding: 2%;
+		font-size: 1rem;
     }
 
     .half {
@@ -309,17 +307,46 @@ CSS VISION PAGE STARTS HERE */
     }
     button{
    margin-bottom: 10%;
+   
     }
 }
 @media( max-width:500px){
    body{
-       width:80%;
-       margin: 0 auto;
-       
-    }
+       width:100%;
+	   margin: 0 auto;
+	   height:100%;
+	}
+	
+	.nav-parts{
+		display:flex;
+		flex-direction: column;
+	}
+
+	}
+	.nav-parts a{
+		width:100%;
+		border-bottom: 1px solid black;
+		border-top: 1px solid black;
+		text-align: center;
+		padding: 5%;
+	}
     .half {
         width:90%;
         text-align:center;
         font-size: 3rem;
-    }    
+	}    
+	
+	.top-content{
+		display:flex;
+		flex-wrap: wrap;
+		width:100%;
+		justify-content: center;
+	}
+
+	.bottom-content{
+		display:flex;
+		flex-wrap: wrap;
+		width:100%;
+		justify-content: center;
+	}
    }
