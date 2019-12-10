@@ -1,3 +1,352 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    width: 100%;
 
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+	box-sizing: border-box;
+	 border: 1px dotted grey; 
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+   padding: 1% 3%;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	color:grey;
+	font-size:20px;	
+	align-items: center;
+}
+
+.nav-parts{
+	display: flex;
+	justify-content: space-between;
+	padding: 2% 0;
+	color:grey;
+	font-size:20px;	
+    align-items: center;
+    width: 70%;
+}
+
+/* working on main heading */
+.whole {
+	display:flex;
+	justify-content: space-evenly;
+}
+.half {
+	width:47%;
+	text-align:center;
+	font-size: 3rem;
+}
+
+#code-image {
+	width:47%;
+	text-align:center;
+	font-size: 3rem;
+}
+
+h1{
+	font-size: 85px;
+}
+
+button {
+	padding:1% 10% 1% 10%;
+	background-color:white;
+	border: .5px solid black;
+}
+
+.top-content{
+display: flex;
+justify-content: space-evenly ;
+}
+.top-half {
+padding: 5%;
+}
+
+.top-half:nth-child(2) {
+	margin-left: 3%;
+}
+
+}
+#code-image {
+	padding-left: 20%;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.bottom-content{
+display:flex;
+justify-content: space-evenly;
+}
+.bottom-third {
+padding: 0 3%;
+}
+
+section h4 {
+	padding: 3% 0% 0% 1%;
+}
+section p {
+	padding: 1%;
+}
+footer {
+	text-align: center;
+	padding: 3% 0;
+}
+/* CSS SERVICES PAGE STARTS HERE
+CSS SERVICES PAGE STARTS HERE
+CSS SERVICES PAGE STARTS HERE
+CSS STYLE PAGE STARTS HERE
+CSS STYLE PAGE STARTS HERE
+CSS STYLE PAGE STARTS HERE
+CSS STYLE PAGE STARTS HERE
+CSS STYLE PAGE STARTS HERE
+CSS STYLE PAGE STARTS HERE
+CSS STYLE PAGE STARTS HERE
+CSS STYLE PAGE STARTS HERE */
+
+
+
+body {
+	margin: 0%
+}
+hr{
+	
+}
+.services-header-img{
+	width: 100%
+}
+
+.services-heading{
+	display: flex;
+	align-items: flex-start; /*why does flex start have the same effect as flex end?*/
+}
+
+.services-heading p{
+	padding: 0 0 3% 0;
+	width: 100%;
+	margin: 0;
+	border: 0;
+}
+.services-heading h2{
+	padding-top: 2%;
+	font-size: 25px;
+}
+
+
+/*            Cards Wrap       */
+	
+.cards{
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+	margin:15px 0;
+	width: 100%;
+}
+
+
+/*      Individual Cards      */
+.card{
+	border: 1px solid black;
+	background-color: lightgrey;
+	margin: 20px 0;
+	width: 	47%;
+	padding:1%;
+}
+.card h3{
+	padding: 3% 3% 0% 3%;
+	margin: 1
+}
+
+.card p{
+	
+	padding:0% 3% 3% 3%;
+	font-size: 20px;
+	letter-spacing: .25px;
+
+}
+.words h2{
+padding-top: 8%;
+}
+.words p{
+	padding:2% 3% 3% 0%;
+	font-size: 1rem;
+	letter-spacing: .25px;
+}
+button{
+	padding:2% 10%;
+	border: 2% solid black;
+	margin:2%
+	
+}
+.service-facts{
+	display:flex;
+	justify-content: space-between;
+}
+ul{
+	font-size: 19px;
+	text-align: left;
+	
+}
+footer{
+	padding: 2%;
+}
+	
+/* CSS VISION PAGE STARTS HERE
+CSS VISION PAGE STARTS HERE	
+CSS VISION PAGE STARTS HERE
+CSS VISION PAGE STARTS HERE
+CSS VISION PAGE STARTS HERE
+CSS VISION PAGE STARTS HERE
+CSS VISION PAGE STARTS HERE
+CSS VISION PAGE STARTS HERE
+CSS VISION PAGE STARTS HERE
+CSS VISION PAGE STARTS HERE
+CSS VISION PAGE STARTS HERE */
+
+.big-3{
+	display:flex;
+	
+	justify-content: space-between;
+}
+.chip{
+	width:20%;
+	height: 20%;
+}
+/* Media Queries Start Here */
+
+@media (max-width: 800px){
+   
+
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        color:grey;
+        font-size:15px;	
+        
+    }
+
+
+    .nav-parts{
+        display:flex;
+        justify-content: space-between;
+        width: 100%;
+		padding: 2%;
+		font-size: 1rem;
+    }
+
+    .half {
+        width:50%;
+        text-align:center;
+        font-size: 3rem;
+    }
+    #code-image{
+        display: none;
+    }
+   .half {
+        justify-content: center;
+    }
+    button{
+   margin-bottom: 10%;
+   
+    }
+}
+@media( max-width:500px){
+   body{
+       width:100%;
+	   margin: 0 auto;
+	   height:100%;
+	}
+	
+	.nav-parts{
+		display:flex;
+		flex-direction: column;
+	}
+
+	}
+	.nav-parts a{
+		width:100%;
+		border-bottom: 1px solid black;
+		border-top: 1px solid black;
+		text-align: center;
+		padding: 5%;
+	}
+    .half {
+        width:90%;
+        text-align:center;
+        font-size: 3rem;
+	}    
+	
+	.top-content{
+		display:flex;
+		flex-wrap: wrap;
+		width:100%;
+		justify-content: center;
+	}
+
+	.bottom-content{
+		display:flex;
+		flex-wrap: wrap;
+		width:100%;
+		justify-content: center;
+	}
+   }
